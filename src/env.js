@@ -5,6 +5,10 @@ const env = {
 
         article: {
             index: '/article'
+        },
+
+        testimonios: {
+            index: '/testimonios'
         }
     }
 };

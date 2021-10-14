@@ -52,21 +52,21 @@
           </div>
 
         <div>
-          <div>
+          <div v-for="(testimonio) in current_testimonios" :key="testimonio._id">
             <b-card>
               <b-media>
                 <template #aside>
                   <b-img
-                    src="https://i.picsum.photos/id/576/300/300.jpg?hmac=HNiOp7kRKNVccNsFgPpj-NMS5Mtqp-2eATl4cuNiNX4"
+                    :src="testimonio.img"
                     width="128"
+                    height="128"
                     alt="placeholder"
                   ></b-img>
                 </template>
 
-                <h5 class="mt-0 text-left">Daniel Osorio Orozco</h5>
+                <h5 class="mt-0 text-left">{{ testimonio.name }}</h5>
                 <p class="mb-0 text-left">
-                  Me parce que cuentan con muy buen servicio, son muy rápidos,
-                  eficientes y la logística estuvo muy bien.
+                  {{ testimonio.comment }}
                 </p>
               </b-media>
             </b-card>
@@ -90,7 +90,7 @@ export default {
   },
   data() {
     return {
-      current_articles: [],
+      current_testimonios: [],
       text: "",
       img: null,
       name: '',
@@ -98,9 +98,9 @@ export default {
     };
   },
   mounted() {
-    const url = `${api.root}${api.article.index}`;
+    const url = `${api.root}${api.testimonios.index}`;
     axios.get(url).then((response) => {
-      this.current_articles = response.data.articles;
+      this.current_testimonios = response.data.testimonios;
     });
   },
   methods: {
