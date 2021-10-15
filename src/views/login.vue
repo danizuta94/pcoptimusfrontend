@@ -21,7 +21,7 @@
         <b-form-group id="input-group-2" label="Password:" label-for="input-2">
           <b-form-input
             id="input-2"
-            v-model="form.name"
+            v-model="form.password"
             type="password"
             required
           ></b-form-input>
@@ -33,8 +33,6 @@
             id="checkboxes-4"
             :aria-describedby="ariaDescribedby"
           >
-            <b-form-checkbox value="me">Check me out</b-form-checkbox>
-            <b-form-checkbox value="that">Check that out</b-form-checkbox>
           </b-form-checkbox-group>
         </b-form-group>
 
@@ -46,24 +44,43 @@
 </template>
 
 <script>
+import axios from 'axios'
+import { api } from "../env";
   export default {
     data() {
       return {
         form: {
           email: '',
-          name: '',
-          food: null,
+          password: '',
           checked: []
         },
-        foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
       }
     },
     methods: {
       onSubmit(event) {
         event.preventDefault()
-        alert(JSON.stringify(this.form))
-        this.$router.push('admin')
+        const url = `${api.root}${api.auth.login}`;
+        const request = {
+          username: this.form.email,
+          password: this.form.password
+        }
+        axios.post(url, request).then(
+          (r) => {
+            if(r.data.success){
+              //const token = r.data.token;
+              this.$router.push('/admin')
+            }else{
+              alert("Usuario y/o contraseña incorrectos");
+            }
+          },
+          (err) => {
+            alert("Usuario y/o contraseña incorrectos");
+            console.info(err);
+          }
+        )
+        // alert(JSON.stringify(this.form))
+        // this.$router.push('admin')
       },
       onReset(event) {
         event.preventDefault()

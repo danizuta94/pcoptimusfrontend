@@ -9,6 +9,10 @@ const env = {
 
         testimonios: {
             index: '/testimonios'
+        },
+
+        auth: {
+            login: '/auth/login'
         }
     }
 };
