@@ -9,7 +9,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Daniela Zuluaga Tamayo"
-              img-src="https://picsum.photos/600/300/?image=25"
+              img-src="https://picsum.photos/600/300/?image=26"
               img-alt="Image"
               img-top
               tag="article"

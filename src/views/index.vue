@@ -3,213 +3,130 @@
     <NavBar/>
     <!-- <nav-bar/> -->
     <div>
-      <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
+      <b-img src="http://esolutionsind.com/img/header/03.jpg" fluid alt="Responsive image"></b-img>
     </div>
     <div class="container mt-5">
       <section id="section1">
-        <h1 class="mb-4">Primera seccion</h1>
+        <h1 class="mb-4">Nuestro Proyecto</h1>
         <b-row>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Primer servicio"
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Descripcion primer servicio.
-              </b-card-text>
+          
+          
+          
+          <b-col sm="12" md="12" lg="12">
+            <p>PC Optimus Solution es una empresa de venta de informática y tecnología con presencia online y tiendas físicas en Colombia.
+            Durante más de 10 años hemos llevado a los hogares de nuestros clientes, soluciones en tecnología informática de alta calidad y la mejor garantía con precios competitivos.
+            El acompañamiento uno a uno, acerca a nuestros clientes con nuestros asesores comerciales. </p>
 
-              <b-button pill>Button</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
+            <p> Nuestro valor agregado de servicio al cliente, permite que nuestros clientes queden satisfechos con sus compras, pues en el proceso de adquisición de los productos de nuestro catálogo, hemos resuelto sus inquietudes respecto a especificaciones técnicas, productos sustitutos de mayor o menor valor, usos y aplicaciones de nuestros productos, términos de garantía y proceso de trámite de garantía con los fabricantes que representamos.
+            </p>
           </b-col>
         </b-row>
       </section>
       <section id="section2" class="mt-5">
-        <h1 class="mb-4">Segunda sección</h1>
+        <h1 class="mb-4">Direccionamiento Estratégico</h1>
         <b-row>
-          <b-col sm="6" md="4" lg="3">
+          <b-col sm="6" md="4" lg="6">
             <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
+              title= "MISIÓN"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-4"
+            >
+              <b-card-text>
+                <p>Ofrecer un gran servicio de venta de computadoras, partes y servicios de alta calidad y conformidad a través de un excelente equipo de trabajo con el fin de satisfacer las necesidades de nuestros clientes.Nuestra meta es anticiparnos a las necesidades de nuestros clientes, y satisfacerlas con rapidez, amabilidad, cortesía, y de manera integral.</p>
+              </b-card-text>
+
+            </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="6">
+            <b-card
+              title="VISIÓN"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
               img-alt="Image"
               img-top
               tag="article"
               class="mb-2"
             >
               <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                <p>La visión de esta empresa es ser la primera opción de los clientes actuales y futuros, satisfaciendo sus necesidades y requerimientos. </p>
+                <p>Además ser reconocida en el ámbito nacional, por la calidad de sus servicios, atenciòn, y mantenerse líder de competitividad en el mercado de la computación.</p>
+
               </b-card-text>
 
-              <b-button href="#" variant="primary">Go somewhere</b-button>
             </b-card>
           </b-col>
           <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
+            
           </b-col>
           <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
+            
           </b-col>
         </b-row>
       </section>
       <section id="section3" class="mt-5">
-        <h1 class="mb-4">Tercera sección</h1>
+        <h1 class="mb-4">Valores</h1>
         <b-row>
           <b-col sm="6" md="4" lg="3">
             <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
+              title="COMPROMISO"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
               img-alt="Image"
               img-top
               tag="article"
               class="mb-2"
             >
               <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                <p>Compartiendo conocimientos, experiencias y esfuerzo, para poder ofrecer el mejor servicio. Supone trabajar con liderazgo bajo un método, en un ambiente que promueva el enriquecimiento, en el cual se valoran y se respetan todas las opiniones e ideas.</p>
               </b-card-text>
 
-              <b-button href="#" variant="primary">Go somewhere</b-button>
+             </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="VOCACIÓN"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                <p>Ayudamos a pensar y a tomar decisiones cuando nuestros clientes se enfrentan a desafíos tecnológicos, porque creemos en las empresas. Nuestra principal motivación es conocer y satisfacer las necesidades, dando una respuesta rápida y eficaz a sus peticiones.</p>
+               </b-card-text>
+
+             </b-card>
+          </b-col>
+          <b-col sm="6" md="4" lg="3">
+            <b-card
+              title="PASIÓN"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="mb-2"
+            >
+              <b-card-text>
+                <p>Contando con esa fuerza interior implacable, que sale del corazón y del alma. Con elementos más trascendentales que el dinero o metas individuales. Soñamos con una organización con pasión dirigida a clientes, que se apartan de lo razonable para otros.</p>
+              </b-card-text>
+
             </b-card>
           </b-col>
           <b-col sm="6" md="4" lg="3">
             <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
+              title="HONESTIDAD"
+              img-src="https://thumbs.dreamstime.com/b/abstract-internet-thing-technology-automation-smart-industry-website-header-concept-168393645.jpg"
               img-alt="Image"
               img-top
               tag="article"
               class="mb-2"
             >
               <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                <p>Con transparencia, honradez e integridad en nuestras relaciones del día a día, empezando por nosotros mismos y rechazando prácticas de negocio injustas, orientadas a obtener una ventaja particular y siendo ejemplo para los demás. Hacemos lo que sabemos…</p>
               </b-card-text>
 
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
-          </b-col>
-          <b-col sm="6" md="4" lg="3">
-            <b-card
-              title="Card Title"
-              img-src="https://placekitten.com/1000/300"
-              img-alt="Image"
-              img-top
-              tag="article"
-              class="mb-2"
-            >
-              <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </b-card-text>
-
-              <b-button href="#" variant="primary">Go somewhere</b-button>
-            </b-card>
+             </b-card>
           </b-col>
         </b-row>
       </section>
@@ -219,7 +136,7 @@
     </transition>
     <footer class="d-flex bg-dark text-light align-items-center px-3 py-2">
       <div class="text-center w-100">
-        <strong class="mr-auto">Footer</strong>
+        <strong class="mr-auto">contacto@pcoptimusolution.com</strong>
       </div>
     </footer>
   </div>
