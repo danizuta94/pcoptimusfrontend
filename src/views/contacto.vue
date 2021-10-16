@@ -9,7 +9,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Daniela Zuluaga Tamayo"
-              img-src="https://picsum.photos/600/300/?image=26"
+              img-src="https://i.ibb.co/5FT954c/2-5-x-3.jpg"
               img-alt="Image"
               img-top
               tag="article"
@@ -28,7 +28,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Iván Salas Méndez"
-              img-src="https://picsum.photos/600/300/?image=26"
+              img-src="https://i.ibb.co/fvJLkgX/1.png"
               img-alt="Image"
               img-top
               tag="article"
@@ -48,7 +48,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Daniel Eduardo Medina G."
-              img-src="https://picsum.photos/600/300/?image=27"
+              img-src="https://i.ibb.co/rMkY5DC/Daniel-Medina-1.jpg"
               img-alt="Image"
               img-top
               tag="article"
@@ -68,7 +68,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Alexander Díaz Garzón"
-              img-src="https://picsum.photos/600/300/?image=28"
+              img-src="https://i.ibb.co/B4dZ9M3/IMG20211015132014-1.jpg"
               img-alt="Image"
               img-top
               tag="article"
@@ -88,7 +88,7 @@
           <b-col sm="6" md="4" lg="3">
             <b-card
               title="Kevin Andrés Gamboa G."
-              img-src="https://picsum.photos/600/300/?image=29"
+              img-src="https://i.ibb.co/30z1Rzn/Kevin-Andres-Gamboa-Garc-a-1-1.png"
               img-alt="Image"
               img-top
               tag="article"
