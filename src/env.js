@@ -7,6 +7,11 @@ const env = {
             index: '/article'
         },
 
+        categorias: {
+            index: '/category',
+            store: '/category'
+        },
+
         testimonios: {
             index: '/testimonios'
         },

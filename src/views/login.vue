@@ -68,7 +68,7 @@ import { api } from "../env";
         axios.post(url, request).then(
           (r) => {
             if(r.data.success){
-              //const token = r.data.token;
+              localStorage.setItem('token', r.data.token);
               this.$router.push('/admin')
             }else{
               alert("Usuario y/o contraseña incorrectos");
